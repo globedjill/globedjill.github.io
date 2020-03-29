@@ -1,0 +1,42 @@
+.mep_section
+ {
+ display: flex;
+ flex-direction: column;
+ }
+ .sec1
+ {
+ width: 100%;
+ border: none;
+ }
+ .sect2
+ {
+
+ }
+ body
+ {
+ 	margin :10px;
+ 	padding-right: 0px;
+ }
+
+ h1
+ {
+ 	position: absolute;
+ 	top:5%;
+ 	margin-left: 20%;
+ }
+ h3
+ {
+ 	position:absolute;
+ 	top:13%;
+ 	margin-left: 20%;
+ }
+ h3 span
+ {
+ 	border-bottom: .12em solid black;
+ 	color:white;
+ }
+
+ color
+ {
+ 	color:white;
+ }
