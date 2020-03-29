@@ -79,16 +79,12 @@ body
 	display: flex;
 	flex-wrap: nowrap;
 }
-#no_wrap td
+#no_wrap tr
 {
- margin-right: 30px;
- width: 100px;
+ 	display: flex;
+	flex-direction: column
 }
-#wrap tr
-{
-	display: flex;
-	flex-direction: column;
-}
+
 
 #bold
 {
