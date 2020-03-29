@@ -2,7 +2,7 @@ body
  {
  	margin :10px;
  	padding-right: 0px;
- 	font-size:36em;
+ 	font-size:8em;
  }
 .mep_section
  {
@@ -20,8 +20,8 @@ body
  .entete img
 {
 	margin-top: 10%;
-	height: 1800px;
-	width: 1800px;
+	height: 1500px;
+	width: 1500px;
 	border-radius: 100%;
 }
  
