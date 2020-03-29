@@ -24,19 +24,6 @@ body
 	border-radius: 100%;
 }
  
- h1
- {
- 	position: absolute;
- 	top:5%;
- 	margin-left: 22%;
- }
-
- h3
- {
- 	position:absolute;
- 	top:13%;
- 	margin-left: 22%;
- }
  .souligne
 {
 	width: 57px;
@@ -95,6 +82,7 @@ body
 #no_wrap td
 {
  margin-right: 30px;
+ width: 100px;
 }
 #wrap tr
 {

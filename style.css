@@ -140,14 +140,16 @@ h3
 	margin-top: 0%;
 	margin-bottom: 10%;
 }
+
+
+
 .souligne
 {
 	width: 57px;
 	height: 1.5px; 
 	background-color: rgba(240, 204, 0, 0.86);
-
 	position: absolute;
-	top:19%;
+	top:144px;
 }
 h4
 {
