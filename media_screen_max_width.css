@@ -2,6 +2,7 @@ body
  {
  	margin :10px;
  	padding-right: 0px;
+ 	
  }
 .mep_section
  {
@@ -83,7 +84,7 @@ body
 #no_wrap tr
 {
 	display: flex;
-	flex-wrap: nowrap;
+	flex-direction: column;
 }
 #no_wrap td
 {
