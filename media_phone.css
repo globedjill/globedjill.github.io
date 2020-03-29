@@ -2,6 +2,7 @@ body
  {
  	margin :10px;
  	padding-right: 0px;
+ 	font-size: .8em;
  }
 .mep_section
  {
@@ -19,8 +20,8 @@ body
  .entete img
 {
 	margin-top: 10%;
-	height: 400px;
-	width: 400px;
+	height: 200px;
+	width: 200px;
 	border-radius: 100%;
 }
  
@@ -28,13 +29,13 @@ body
 {
 	position: absolute;
 	top:2%;
- 	margin-left: 25%;
+ 	margin-left: 16%;
 }
  
  .souligne
 {
-	width: 57px;
-	height: 1.5px; 
+	width: 46px;
+	height: 2px; 
 	background-color: white;
 
 	position: absolute;
