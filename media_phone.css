@@ -2,7 +2,6 @@ body
  {
  	margin :10px;
  	padding-right: 0px;
- 	font-size:2em;
  }
 .mep_section
  {
@@ -42,10 +41,6 @@ body
 	top:77%;
 }
 
-h1
-{
-	font-size: 2em;
-}
 
  h4
  {
