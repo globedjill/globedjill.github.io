@@ -4,98 +4,94 @@ body
  	padding-right: 0px;
  	font-size: .8em;
  }
+
+/*mes titres*/
+.titre_principal
+{
+    position: absolute;
+    top: 2%;
+    margin-left: 16%;
+}
+h4
+{
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 30px;
+}
+color
+{
+    color: white;
+}
+.souligne {
+    width: 46px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 77%;
+}
+
+/*mise en page section*/
+.entete img
+{
+    margin-top: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+} 
 .mep_section
  {
  display: flex;
  flex-direction: column;
  }
- .sec1
+.sec1
  {
  width: 100%;
  border: none;
  font-size: 1.5em;
  margin-bottom: 30px;
  }
- 
- .entete img
-{
-	margin-top: 10%;
-	height: 200px;
-	width: 200px;
-	border-radius: 100%;
-}
- 
- .titre_principal
-{
-	position: absolute;
-	top:2%;
- 	margin-left: 16%;
-}
- 
- .souligne
-{
-	width: 46px;
-	height: 2px; 
-	background-color: white;
 
-	position: absolute;
-	top:77%;
-}
-
-
- h4
- {
- 	font-size: 2em;
- 	font-weight: bold;
- 	margin-right: 30px;
- }
-
- color
- {
- 	color:white;
- }
-
- td
+/*mise en page tableaux*/
+td
  {
  	font-size: 2em;
  	
  }
- tr
+tr
  {
  	border-bottom:.2px solid #9C8300;
  	margin-right: 30px;
  }
- #icone
+#indent1
+{
+    text-indent: 33px;
+    margin-top: -25px;
+}
+#indent2
+{
+    text-indent: 26px;
+    margin-top: -25px;
+}
+#no_wrap tr
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#no_wrap tr
+{
+    display: flex;
+    flex-direction: column
+}
+#bold {
+    font-weight: bold;
+}
+
+/*changement taille icone*/
+#icone
 {
 	height: 40px;
 	width: 40px;
 	margin-right: 10px;
 
 	float: left;
-}
-#indent1
-{
-	text-indent: 33px;
-	margin-top: -25px;
-}
-#indent2
-{
-	text-indent: 26px;
-	margin-top: -25px;
-}
-#no_wrap tr
-{
-	display: flex;
-	flex-wrap: nowrap;
-}
-#no_wrap tr
-{
- 	display: flex;
-	flex-direction: column
-}
-
-
-#bold
-{
-	font-weight: bold;
 }
