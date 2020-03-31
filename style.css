@@ -4,15 +4,21 @@ body
 	padding-right: 10px;
 	font-family: 'avenir next';
 	border:.1px solid black;
+	display: flex;
 }
 
 /*mes_titres*/ 
+body .section_2 
+{
+	flex:1;
+}
+
 h1 {
 	margin-bottom: 0%;
 	text-align: left;
 	font-weight: normal;
 	text-transform: uppercase;
-	font-size: 2.2em;
+	font-size: 2.4em;
 }
     Color
     {
@@ -24,7 +30,7 @@ h1 {
 	    height: 1.5px;
 	    background-color: rgba(240, 204, 0, 0.86);
 	    position: absolute;
-	    top: 149px;
+	    top: 225px;
     }
 h2 {
 	padding-top: 3px;
@@ -57,13 +63,13 @@ h4
 	    font-size: 1em;
     }
 
-/*Balise principal*/
-article
+.titre_principal
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
+	margin-top: 10%;
 }
+
+/*Balise principal*/
+
 a
 {
 	cursor: pointer;
@@ -163,35 +169,30 @@ strong
 }
 
 /*Mise En Page section*/
-.mep_section
-{
-	display: flex;
-	flex-direction: row;
-}
 
-
-.sec1
+.section_1
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
-	width: 270px;
 	border-right: .5px solid black;
+	max-width: 270px;
 	margin: auto;
-	height: 100%;
 }
-.sec2 {
-	margin: 2px;
+
+.section_2
+{
 	padding-left: 70px;
 }
 
 /*Mise en page section1*/
+.section_1
+{
+	flex:1 ;
+}
 .mep_contact, .mep_pres
 {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 	padding-left: 30px;
 }
     .mep_pres p, .mep_contact p
@@ -201,29 +202,35 @@ strong
     }
 .mep_loisir 
 {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 5%;
 	padding-left: 30px;
 }
 
-/*Mise en page Tableaux*/
-table
+/*Mise en Pge section2*/
+.mep_stage article
 {
-	min-width: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 20%;
 }
+
+/*Mise en page Tableaux*/
 td 
 {
-	min-width: 230px;
+	min-width: 250px;
 }
 tr
 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+}
+.section_2 p 
+{
+	font-size: 1em;
 }
 
 
