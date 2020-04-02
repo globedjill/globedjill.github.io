@@ -4,7 +4,7 @@ body
 	font-family: 'avenir next';
 	border:.1px solid black;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	font-size: 1em;
 	}
 
@@ -21,10 +21,6 @@ h1
     	{
 	    color: rgba(240, 204, 0, 0.86);
     	}
-    hgroup
-		{
-		margin-top: 10%;
-		}
 h2 
 	{
 	font-weight: normal;
@@ -51,17 +47,18 @@ h3
 	color: rgba(240, 204, 0, 0.86);
 	background-color: black;
 	}
-section:nth-of-type(1) article header h3
+section:nth-of-type(1) article h3
 	{
 	background-color:unset;
 	display: flex;
 	justify-content: flex-start;
-	font-size: 1.2em;
-	font-weight: normal;
+	font-size: 1.5em;
+	font-weight: 400;
 	text-transform: uppercase;
 	border-bottom: .12em solid rgba(240, 204, 0, 0.86);
+	margin-right: 20px;
 	}
-    section:nth-of-type(1) article header h3 i
+    section:nth-of-type(1) article h3 i
     	{
     	color: rgba(240, 204, 0, 0.86);
 	    margin-right: 15px;
@@ -109,38 +106,51 @@ strong
 	}
 
 /*Mise En Page section*/
-.gauche section
+header
 	{
 	display: flex;
-	flex-direction: column;
 	}
+	header picture img
+		{
+		margin: 10% 0% 7% 0%;
+		height: 250px;
+		width: 250px;
+		border-radius: 100%;
+		border: .2em solid rgba(168, 121, 0, 0.87);
+		}
+	nav
+		{
+		padding: 0px 25px 10px 40px;
+		min-width: 270px;
+		max-width: 270px;
+		background-image: linear-gradient(55deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
+		border-right: .5px solid black;
+		}
+	hgroup
+		{
+		margin-left: 60px;
+		margin-top: 70px;
+		}
+
+main
+{
+	display:flex;
+}
+
 .gauche
 	{
 	display: flex;
 	flex-direction: column;
 	background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
 	border-right: .5px solid black;
-	width: 270px;
+	min-width: 270px;
+	max-width: 270px;
 	padding: 0px 25px 10px 40px;
 	}
 	/*Photo de profil*/
-	.gauche picture img
-		{
-		margin: 30% 0% 5% 10%;
-		height: 170px;
-		width: 170px;
-		border-radius: 100%;
-		border: .2em solid rgba(168, 121, 0, 0.87);
-		flex-shrink: 1;
-		}
+	
 	/*icone social*/
-	.gauche nav
-		{
-		flex-shrink: 1;
-		display: flex;
-		flex-direction: row;
-		}
-		.gauche a img
+		header a img
 			{
 			height: 40px;
 			width: 40px;
@@ -178,11 +188,13 @@ section:nth-of-type(1)
 {
 	flex-grow: 1;
 	padding: 0px 20px 0px 80px;
+	margin-top: -150px;
 }
 section:nth-of-type(1) article:nth-of-type(1n) article
 {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 h4 i, section:nth-of-type(1) h5 i
