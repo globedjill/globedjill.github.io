@@ -6,6 +6,7 @@ body
 	display: flex;
 	flex-direction: column;
 	font-size: 1em;
+	color:rgba(92, 66, 0, 1);
 	}
 
 /*mes_titres*/ 
@@ -29,22 +30,22 @@ h2
 	}
 	h2 span
 		{
-		text-decoration: underline;
-		text-decoration-color: rgba(240, 204, 0, 0.86);
-		text-underline-offset: .2em;
+		padding-bottom: -9px;
+		border-bottom: .08em solid rgba(240, 204, 0, 0.86);
 		}	
 h3 
 	{
 	padding-top: 12px;
 	padding-bottom: 12px;
+	margin-top: 0px;
 	margin-left: -40px;
-	margin-right: -25px;
+	margin-right: -20px;
 	font-size: 1.6em;
 	font-weight: 500;
 	text-transform: uppercase;
 	display: flex;
 	justify-content: center;
-	color: rgba(240, 204, 0, 0.86);
+	color: rgba(255, 239, 199, 1);
 	background-color: black;
 	}
 section:nth-of-type(1) article h3
@@ -57,10 +58,11 @@ section:nth-of-type(1) article h3
 	text-transform: uppercase;
 	border-bottom: .12em solid rgba(240, 204, 0, 0.86);
 	margin-right: 20px;
+	color: rgba(92, 66, 0, 1);
 	}
     section:nth-of-type(1) article h3 i
     	{
-    	color: rgba(240, 204, 0, 0.86);
+    	color:rgba(92, 66, 0, 1);
 	    margin-right: 15px;
 	    font-size: 1.5em;
     	}
@@ -81,10 +83,13 @@ a
 	text-decoration: none;
 	color: rgba(255, 99, 15, 1);
 	font-weight: 500;
+
 	}
 	a:hover
     	{
 		color: rgba(54, 255, 36, 1);
+		font-size: 1.3em;
+		font-weight: 600; 
 		}
 p
 	{
@@ -120,13 +125,15 @@ header
 		}
 	nav
 		{
-		min-width: 335px;
+		min-width: 330px;
 		background-image: linear-gradient(55deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
 		border-right: .5px solid black;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		order:1;
+		padding-bottom: 20px;
+
 		}
 		.mise_en_page_ico_social
 			{
@@ -145,18 +152,20 @@ header
 main
 	{
 	display:flex;
+	padding-top: -20px;
 	}
 
 
 .gauche
 	{
+	justify-content: space-between;
 	display: flex;
 	flex-direction: column;
 	background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
 	border-right: .5px solid black;
 	min-width: 270px;
 	max-width: 270px;
-	padding: 0px 25px 10px 40px;
+	padding: 0px 20px 10px 40px;
 	}
 	/*Photo de profil*/
 	
@@ -168,12 +177,14 @@ main
 			margin-left: 20px;
 			}
 	/*Contact*/
+	
 	.gauche article:nth-of-type(1)
 		{
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: space-between;
 		flex-grow: 1;
+		padding-bottom: 40px;
 		}	
 	/*Parcour*/
 	.gauche article:nth-of-type(2)
@@ -181,10 +192,7 @@ main
 		flex-grow: 1;
 		}
 	/*Loisir*/
-	.gauche article:nth-of-type(3)
-		{
 		
-		}
 		.mep-loisir
 		{
 		display: flex;
@@ -192,6 +200,11 @@ main
 		justify-content: space-around;
 		margin-top:40px;
 		margin-bottom: 40px;
+
+		}
+		.mep-loisir i
+		{
+		font-size: 2em;
 		}
 
 /*section 2*/
@@ -208,7 +221,7 @@ section:nth-of-type(1) article:nth-of-type(1n) article
 	flex-wrap: wrap;
 }
 
-h4 i, section:nth-of-type(1) h5 i
+h4 i
 {
 	color:rgba(240, 204, 0, 0.86);
 }
