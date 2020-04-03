@@ -83,7 +83,6 @@ a
 	text-decoration: none;
 	color: rgba(255, 99, 15, 1);
 	font-weight: 500;
-
 	}
 	a:hover
     	{
@@ -133,7 +132,6 @@ header
 		align-items: center;
 		order:1;
 		padding-bottom: 20px;
-
 		}
 		.mise_en_page_ico_social
 			{
@@ -167,7 +165,6 @@ main
 	max-width: 270px;
 	padding: 0px 20px 10px 40px;
 	}
-	/*Photo de profil*/
 	
 	/*icone social*/
 		header a img
@@ -177,7 +174,6 @@ main
 			margin-left: 20px;
 			}
 	/*Contact*/
-	
 	.gauche article:nth-of-type(1)
 		{
 		display: flex;

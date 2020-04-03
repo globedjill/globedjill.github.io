@@ -1,0 +1,132 @@
+h3,article
+{
+  break-inside: avoid; 
+  break-after: avoid;
+}
+
+body
+    {
+    border:1pt solid grey;
+    margin: .5cm;
+    font-size: 7pt;
+    display: flex;
+    }
+header,main
+    {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    }
+   
+a
+    {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 99, 15, 1);
+    font-weight: 500;
+    }
+/*header*/
+hgroup
+    {
+    min-width:300pt;
+    }
+nav
+    {
+    min-width: 200pt;
+    padding-bottom: 0pt; 
+    background-image: linear-gradient(55deg,rgba(255, 129, 61, 0),rgba(240, 204, 0, 0));
+    width: 30%;
+    }
+    picture img
+        {
+        height: 150pt;
+        width: 150pt;
+        margin:30pt 0pt 0pt 0pt;
+        }
+    .mise_en_page_ico_social
+        {
+        display: none;
+        }
+
+/*Main*/
+.gauche
+    {
+    background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.30),rgba(240, 204, 0, 0.30));
+    border:.1pt solid grey;
+    min-width: 35%;
+    max-width:35%;
+    order:1;
+    padding: 0pt 0pt 0pt 0pt;
+    margin-right: 2%;
+    }
+    .gauche article:nth-of-type(1)
+        {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-grow: 1;
+        padding-bottom: -2%;
+        flex-grow: 0;
+        }   
+        .gauche article:nth-of-type(1) i
+            {
+            display: none;
+            }
+    .gauche article:nth-of-type(2) p
+        {
+        flex-grow: 0;
+        padding-left: 10pt;
+        padding-right: 10pt;
+        }
+    .gauche article:nth-of-type(3)
+        {
+        flex-grow: 1;
+        }
+
+
+section
+{
+    order:2;
+    padding: 0pt 20pt 0pt 80pt;
+    margin-top: -50pt;
+    margin-left: -30pt;
+}
+section article:nth-of-type(1n) article
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: -10pt;
+}
+
+
+/*mes_titres*/ 
+h1
+    {
+    margin-bottom: 0%;
+    text-transform: uppercase;
+    font-size: 1cm;
+    }
+h2
+    {
+    margin-left:25%;
+    }
+    .gauche h3
+        {
+        padding-top: 12pt;
+        padding-bottom: 12pt;
+        margin-left: 0pt;
+        margin-right: 0pt;
+        font-size: 1.6em;
+        font-weight: 500;
+        text-transform: uppercase;
+        background-color: grey;
+        }
+a
+    {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    }
+
