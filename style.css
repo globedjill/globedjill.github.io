@@ -48,7 +48,7 @@ h3
 	color: rgba(255, 239, 199, 1);
 	background-color: black;
 	}
-section:nth-of-type(1) article h3
+section article h3
 	{
 	background-color:unset;
 	display: flex;
@@ -60,7 +60,7 @@ section:nth-of-type(1) article h3
 	margin-right: 20px;
 	color: rgba(92, 66, 0, 1);
 	}
-    section:nth-of-type(1) article h3 i
+    section article h3 i
     	{
     	color:rgba(92, 66, 0, 1);
 	    margin-right: 15px;
@@ -71,7 +71,7 @@ h4
 	font-size: 1em;
 	min-width: 300px;
 	}
-	section article h4
+	 section article h4
 		{
 		letter-spacing: 2px;
 		}
@@ -208,13 +208,13 @@ main
 		}
 
 /*section 2*/
-section:nth-of-type(1)
+section
 {
 	flex-grow: 1;
 	padding: 0px 20px 0px 80px;
 	margin-top: -150px;
 }
-section:nth-of-type(1) article:nth-of-type(1n) article
+section article:nth-of-type(1n) article
 {
 	display: flex;
 	flex-direction: row;

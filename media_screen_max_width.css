@@ -48,7 +48,7 @@ header
 	max-width: 800px;
 	border:none;
 }
-section:nth-of-type(1) article:nth-of-type(1n) article
+section article:nth-of-type(1n) article
 {
 	order:1;
 	flex-direction: column;
@@ -57,7 +57,7 @@ section:nth-of-type(1) article:nth-of-type(1n) article
 	margin-left: -40px;
 	margin-right: 10px;
 }
-section:nth-of-type(1) article:nth-of-type(1n) article p
+section article:nth-of-type(1n) article p
 
 {
 	margin-top: -15px;
@@ -69,7 +69,7 @@ main
 	flex-direction: column;
 
 }
-section:nth-of-type(1)
+section
 {
 	margin-top: 0px;
 }
@@ -81,7 +81,7 @@ h4
 		{
 		font-size: 1.2em;
 		font-weight: 500;
-		padding-left: 20%;
+		padding-left: 15%;
 		letter-spacing: 2px;
 		}	
 .gauche article:nth-of-type(1) p i
@@ -89,4 +89,3 @@ h4
 	margin-right: 30px;
 	font-size: 1.8em;
 }
-
