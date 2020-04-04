@@ -69,11 +69,11 @@ section article h3
 h4
 	{
 	font-size: 1em;
-	min-width: 300px;
+	min-width: 250px;
 	}
 	 section article h4
 		{
-		letter-spacing: 2px;
+		letter-spacing:0px;
 		}
 
 /*Balise principal*/
@@ -205,18 +205,54 @@ main
 
 /*section 2*/
 section
-{
+	{
 	flex-grow: 1;
 	padding: 0px 20px 0px 80px;
 	margin-top: -150px;
-}
-section article:nth-of-type(1n) article
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
+	background-color: yellow;
+	}
+	section article:nth-of-type(1n) article
+		{
+		/*background-color: red;*/
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		margin-left: -30px;
+		}
+	section article:nth-of-type(1n) article h4 span
+		{
+		margin-left: 35px;
+		font-weight: 400;
+		font-style: italic;
+		font-size: .8em;
+		}
+	section article:nth-of-type(1n) article p span
+		{
+		margin-left: 15px;
+		font-weight: 400;
+		font-style: italic;
+		}
+	section article:nth-of-type(2) article, section article:nth-of-type(3) article
+		{
+		display: flex;
+		flex-wrap: nowrap;
+		margin-right: 20px;
+		}
+		
+	section article:nth-of-type(4) article
+		{
+		background-color: green;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		margin-right: 20px;
+		}
+		.mep_recommandation 
+		{
+		background-color: blue;
+		flex-direction: row;
+		}
 h4 i
 {
 	color:rgba(240, 204, 0, 0.86);
@@ -233,5 +269,11 @@ h4 i
 	margin-top: 6px;
 }
 
-
+@media (max-width:1000px)
+{
+	section article:nth-of-type(2) article
+		{
+		flex-wrap: wrap;
+		}
+}
 
