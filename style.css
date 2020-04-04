@@ -1,6 +1,8 @@
 body
 	{
 	margin:50px;
+	margin-left: 100px;
+	margin-right:100px;
 	font-family: 'avenir next';
 	border:.1px solid black;
 	display: flex;
@@ -48,7 +50,7 @@ h3
 	color: rgba(255, 239, 199, 1);
 	background-color: black;
 	}
-section article h3
+section article h3,aside h3
 	{
 	background-color:unset;
 	display: flex;
@@ -60,7 +62,7 @@ section article h3
 	margin-right: 20px;
 	color: rgba(92, 66, 0, 1);
 	}
-    section article h3 i
+    section article h3 i, aside h3 i
     	{
     	color:rgba(92, 66, 0, 1);
 	    margin-right: 15px;
@@ -71,9 +73,16 @@ h4
 	font-size: 1em;
 	min-width: 250px;
 	}
-	 section article h4
+	h4 i
 		{
-		letter-spacing:0px;
+		color:rgba(240, 204, 0, 0.86);
+		}
+	h4 span
+		{
+		margin-left: 35px;
+		font-weight: 400;
+		font-style: italic;
+		font-size: .8em;
 		}
 
 /*Balise principal*/
@@ -95,6 +104,12 @@ p
 	text-align: justify;
 	font-size: 1em;
 	}
+	p span
+		{
+		margin-left: 15px;
+		font-weight: 400;
+		font-style: italic;
+		}
 i
 	{
 	float: left;
@@ -166,14 +181,14 @@ main
 	padding: 0px 20px 10px 40px;
 	}
 	
-	/*icone social*/
+/*icone social*/
 		header a img
 			{
 			height: 40px;
 			width: 40px;
 			margin-left: 20px;
 			}
-	/*Contact*/
+/*Contact*/
 	.gauche article:nth-of-type(1)
 		{
 		display: flex;
@@ -182,13 +197,12 @@ main
 		flex-grow: 1;
 		padding-bottom: 40px;
 		}	
-	/*Parcour*/
+/*Parcour*/
 	.gauche article:nth-of-type(2)
 		{
 		flex-grow: 1;
 		}
-	/*Loisir*/
-		
+/*Loisir*/	
 		.mep-loisir
 		{
 		display: flex;
@@ -209,54 +223,38 @@ section
 	flex-grow: 1;
 	padding: 0px 20px 0px 80px;
 	margin-top: -150px;
-	background-color: yellow;
 	}
 	section article:nth-of-type(1n) article
 		{
-		/*background-color: red;*/
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		margin-left: -30px;
-		}
-	section article:nth-of-type(1n) article h4 span
-		{
-		margin-left: 35px;
-		font-weight: 400;
-		font-style: italic;
-		font-size: .8em;
-		}
-	section article:nth-of-type(1n) article p span
-		{
-		margin-left: 15px;
-		font-weight: 400;
-		font-style: italic;
 		}
 	section article:nth-of-type(2) article, section article:nth-of-type(3) article
 		{
 		display: flex;
 		flex-wrap: nowrap;
 		margin-right: 20px;
-		}
-		
-	section article:nth-of-type(4) article
+		}	
+	aside .mep_recommandation
 		{
-		background-color: green;
 		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		flex-wrap: nowrap;
-		margin-right: 20px;
-		}
-		.mep_recommandation 
-		{
-		background-color: blue;
 		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-left: -30px;
+		margin-right: -50px;
 		}
-h4 i
-{
-	color:rgba(240, 204, 0, 0.86);
-}
+	.mep_recommandation p
+	{
+		margin-top: -25px;
+	}
+	.mep_recommandation a
+	{
+		font-size: .9em;
+	}
+
 
 .fa-dot-circle
 {

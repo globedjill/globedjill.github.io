@@ -1,6 +1,8 @@
 body
  {
  	margin:0px;
+ 	margin-right: 0px;
+ 	margin-left: 0px;
  	padding-right: 0px; 
  	display: flex;
  	flex-direction: column;
@@ -44,7 +46,7 @@ header
 .gauche
 {
 	order:2;
-	max-width: 800px;
+	max-width: 900px;
 	border:none;
 }
 
@@ -90,5 +92,9 @@ h4
 {
 	margin-right: 30px;
 	font-size: 1.8em;
+}
+.mep_recommandation
+{
+	margin-bottom: 20px;
 }
 
