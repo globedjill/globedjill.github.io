@@ -83,9 +83,9 @@ h4
 }
 .gauche article:nth-of-type(1) p
 		{
-		font-size: 1.2em;
-		font-weight: 500;
-		padding-left: 10%;
+		font-size: 1em;
+		font-weight: 400;
+		padding-left: 3%;
 		letter-spacing: 2px;
 		}	
 .gauche article:nth-of-type(1) p i
@@ -93,6 +93,7 @@ h4
 	margin-right: 30px;
 	font-size: 1.8em;
 }
+
 .mep_recommandation
 {
 	margin-bottom: 20px;

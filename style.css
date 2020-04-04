@@ -191,6 +191,7 @@ main
 /*Contact*/
 	.gauche article:nth-of-type(1)
 		{
+		max-height: 600px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
