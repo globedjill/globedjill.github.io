@@ -11,91 +11,99 @@ body
  }
 /*Mes titres*/
 hgroup
-{
+	{
 	order:2;
 	margin-left:unset;
 	margin-top: unset;
-}
+	}
 h1
-{
+	{
 	text-indent: 10%;
-}
+	}
 h2
-{
+	{
 	font-size: 2em;
-}
-picture
-{
-	margin-top: -20px;
-}
-
-nav
-{
-	border:none;
-	background-image: linear-gradient(55deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
-	order:1;
-	margin-bottom: 20px;
-	width: 100%;
-}
-header
-{
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-.gauche
-{
-	order:2;
-	max-width: 900px;
-	border:none;
-}
-
-/*tous les articles de section sauf titre*/
-section article:nth-of-type(1n) article 
-{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	font-size: 1.2em;
-	margin-left: -60px;
-	margin-right: 10px;
-}
-
-section article:nth-of-type(1n) article p
-
-{
-	margin-top: -15px;
-	margin-left: 30px;
-}
-
-main
-{
-	flex-direction: column;
-
-}
-section
-{
-	margin-top: 0px;
-}
+	}
 h4
-{
+	{
 	font-weight: 600;
-}
-.gauche article:nth-of-type(1) p
+	}
+
+/*balise standard*/
+p
+	{
+	}
+	.gauche article:nth-of-type(1) p
 		{
 		font-size: 1em;
 		font-weight: 400;
 		padding-left: 3%;
 		letter-spacing: 2px;
-		}	
+		}
+	section article:nth-of-type(1n) article p
+		{
+		margin-top: -15px;
+		margin-left: 30px;
+		}
+
 .gauche article:nth-of-type(1) p i
-{
+	{
 	margin-right: 30px;
 	font-size: 1.8em;
-}
+	}
 
-.mep_recommandation
-{
-	margin-bottom: 20px;
-}
+header	
+	{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+	nav
+		{
+		border:none;
+		background-image: linear-gradient(55deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
+		order:1;
+		margin-bottom: 20px;
+		width: 100%;
+		}
+	picture
+		{
+		margin-top: -20px;
+		}
+main
+	{
+	flex-direction: column;
+	}
+	.gauche
+		{
+		order:2;
+		max-width: 900px;
+		border:none;
+		}
+	section
+		{
+		margin-top: 0px;
+		}
+		section article:nth-of-type(1n) article 
+			{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: nowrap;
+			font-size: 1.2em;
+			margin-left: -60px;
+			margin-right: 10px;
+			}
+	.mep_recommandation
+		{
+		margin-bottom: 20px;
+		}
+
+
+
+
+
+
+
+
+
 

@@ -10,7 +10,7 @@ body
 	font-size: 1em;
 	color:rgba(92, 66, 0, 1);
 	}
-
+	
 /*mes_titres*/ 
 h1 
 	{
@@ -50,41 +50,24 @@ h3
 	color: rgba(255, 239, 199, 1);
 	background-color: black;
 	}
-section article h3,aside h3
-	{
-	background-color:unset;
-	display: flex;
-	justify-content: flex-start;
-	font-size: 1.5em;
-	font-weight: 400;
-	text-transform: uppercase;
-	border-bottom: .12em solid rgba(240, 204, 0, 0.86);
-	margin-right: 20px;
-	color: rgba(92, 66, 0, 1);
-	}
-    section article h3 i, aside h3 i
-    	{
-    	color:rgba(92, 66, 0, 1);
-	    margin-right: 15px;
-	    font-size: 1.5em;
-    	}
+	section article h3,aside h3
+		{
+		background-color:unset;
+		display: flex;
+		justify-content: flex-start;
+		font-size: 1.5em;
+		font-weight: 400;
+		text-transform: uppercase;
+		border-bottom: .12em solid rgba(240, 204, 0, 0.86);
+		margin-right: 20px;
+		color: rgba(92, 66, 0, 1);
+		}   
 h4
 	{
 	font-size: 1em;
 	min-width: 250px;
 	}
-	h4 i
-		{
-		color:rgba(240, 204, 0, 0.86);
-		}
-	h4 span
-		{
-		margin-left: 35px;
-		font-weight: 400;
-		font-style: italic;
-		font-size: .8em;
-		}
-
+	
 /*Balise principal*/
 a
 	{
@@ -112,11 +95,22 @@ p
 	text-align: justify;
 	font-size: 1em;
 	}
+span
+	{
+
+	}
 	p span
 		{
 		margin-left: 15px;
 		font-weight: 400;
 		font-style: italic;
+		}
+	h4 span
+		{
+		margin-left: 35px;
+		font-weight: 400;
+		font-style: italic;
+		font-size: .8em;
 		}
 i
 	{
@@ -126,24 +120,48 @@ i
 	margin-right: 20px;
 	vertical-align:text-top;
 	}
+	section article h3 i, aside h3 i
+    	{
+    	color:rgba(92, 66, 0, 1);
+	    margin-right: 15px;
+	    font-size: 1.5em;
+    	}
+	h4 i
+		{
+		color:rgba(240, 204, 0, 0.86);
+		}
+	.mep-loisir i
+		{
+		font-size: 2em;
+		}
+	.fa-dot-circle
+		{
+		font-size: 90%;
+		margin-top: 6px;
+		}
+	.fa-circle
+		{
+		font-size: 40%;
+		margin-top: 6px;
+		}
 strong
 	{
 	font-weight: bold;
 	letter-spacing: .2em;
 	}
 
-/*Mise En Page section*/
+/*Mise En Page */
 header
 	{
 	display: flex;
 	}
-	picture img
+	hgroup
 		{
-		margin:30px 0px 20px 0px;
-		height: 250px;
-		width: 250px;
-		border-radius: 100%;
-		border: .2em solid rgba(168, 121, 0, 0.87);
+		margin-left: 60px;
+		margin-top: 70px;
+		display: flex;
+		flex-direction: column;
+		order:2;
 		}
 	nav
 		{
@@ -156,96 +174,85 @@ header
 		order:1;
 		padding-bottom: 20px;
 		}
+		picture img
+			{
+			margin:30px 0px 20px 0px;
+			height: 250px;
+			width: 250px;
+			border-radius: 100%;
+			border: .2em solid rgba(168, 121, 0, 0.87);
+			}
 		.mise_en_page_ico_social
 			{
 			display: flex;
 			flex-direction: row;
-			}
-	hgroup
-		{
-		margin-left: 60px;
-		margin-top: 70px;
-		display: flex;
-		flex-direction: column;
-		order:2;
-		}
-
+			}			
 main
 	{
 	display:flex;
 	padding-top: -20px;
 	}
-
-
-.gauche
-	{
-	justify-content: space-between;
-	display: flex;
-	flex-direction: column;
-	background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
-	border-right: .5px solid black;
-	min-width: 270px;
-	max-width: 270px;
-	padding: 0px 20px 10px 40px;
-	}
-	
-/*icone social*/
+	.gauche
+		{
+		justify-content: space-between;
+		display: flex;
+		flex-direction: column;
+		background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.86),rgba(240, 204, 0, 0.86));
+		border-right: .5px solid black;
+		min-width: 270px;
+		max-width: 270px;
+		padding: 0px 20px 10px 40px;
+		}
+		/*icone social*/
 		header a img
 			{
 			height: 40px;
 			width: 40px;
 			margin-left: 20px;
 			}
-/*Contact*/
-	.gauche article:nth-of-type(1)
-		{
-		max-height: 600px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		flex-grow: 1;
-		padding-bottom: 40px;
-		}	
-/*Parcour*/
-	.gauche article:nth-of-type(2)
-		{
-		flex-grow: 1;
-		}
-/*Loisir*/	
+		/*Contact*/
+		.gauche article:nth-of-type(1)
+			{
+			max-height: 600px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			flex-grow: 1;
+			padding-bottom: 40px;
+			}	
+		/*Parcour*/
+		.gauche article:nth-of-type(2)
+			{
+			flex-grow: 1;
+			}
+		/*Loisir*/	
 		.mep-loisir
+			{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			margin-top:40px;
+			margin-bottom: 40px;
+			}
+	section
 		{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		margin-top:40px;
-		margin-bottom: 40px;
-
+		flex-grow: 1;
+		padding: 0px 20px 0px 80px;
+		margin-top: -150px;
 		}
-		.mep-loisir i
-		{
-		font-size: 2em;
-		}
-
-/*section 2*/
-section
-	{
-	flex-grow: 1;
-	padding: 0px 20px 0px 80px;
-	margin-top: -150px;
-	}
-	section article:nth-of-type(1n) article
-		{
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		margin-left: -30px;
-		}
-	section article:nth-of-type(2) article, section article:nth-of-type(3) article
-		{
-		display: flex;
-		flex-wrap: nowrap;
-		margin-right: 20px;
-		}	
+		section article:nth-of-type(1n) article
+			{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			margin-left: -30px;
+			}
+		section article:nth-of-type(2) article, section article:nth-of-type(3) article
+			{
+			display: flex;
+			flex-wrap: nowrap;
+			margin-right: 20px;
+			}	
 	aside .mep_recommandation
 		{
 		display: flex;
@@ -255,37 +262,25 @@ section
 		margin-left: -30px;
 		margin-right: -50px;
 		}
-	.mep_recommandation p
-	{
-		margin-top: -25px;
-	}
-	.mep_recommandation a
-	{
-		font-size: .9em;
-	}
-
-
-.fa-dot-circle
-{
-	font-size: 90%;
-	margin-top: 6px;
-}
-.fa-circle
-{
-	font-size: 40%;
-	margin-top: 6px;
-}
+		.mep_recommandation p
+		{
+			margin-top: -25px;
+		}
+		.mep_recommandation a
+		{
+			font-size: .9em;
+		}
 
 @media (max-width:1000px)
-{
-	section article:nth-of-type(2) article
-		{
-		flex-wrap: wrap;
-		}
-	body
 	{
-		margin-left: 50px;
-		margin-right:50px;
+		section article:nth-of-type(2) article
+			{
+			flex-wrap: wrap;
+			}
+		body
+		{
+			margin-left: 50px;
+			margin-right:50px;
+		}
 	}
-}
 
