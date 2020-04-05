@@ -96,7 +96,15 @@ a
 	a:hover
     	{
 		color: rgba(54, 255, 36, 1);
-		font-size: 1.3em;
+		font-weight: 600; 
+		}
+	.gauche a
+	{
+		color: white;
+	}
+	.gauche a:hover
+    	{
+		color: rgba(54, 255, 36, 1);
 		font-weight: 600; 
 		}
 p
@@ -121,7 +129,7 @@ i
 strong
 	{
 	font-weight: bold;
-	letter-spacing: .3em;
+	letter-spacing: .2em;
 	}
 
 /*Mise En Page section*/
@@ -274,5 +282,10 @@ section
 		{
 		flex-wrap: wrap;
 		}
+	body
+	{
+		margin-left: 50px;
+		margin-right:50px;
+	}
 }
 
