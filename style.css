@@ -17,11 +17,11 @@ h1
 	margin-bottom: 0%;
 	text-align: left;
 	font-weight: normal;
-	text-transform: uppercase;
 	font-size: 2.4em;
 	}
     h1 span
     	{
+    	text-transform: uppercase;
 	    color: rgba(240, 204, 0, 0.86);
     	}
 h2 
