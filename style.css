@@ -276,8 +276,6 @@ main
 				{
 				margin-bottom: 40px;
 				}
-
-
 		.droite section:nth-of-type(1n)
 			{
 			display: flex;
@@ -291,7 +289,8 @@ main
 				flex-direction: column;
 				/*background-color: green;*/
 				}
-	.mise_en_page_recommandation
+
+		.mise_en_page_recommandation
 		{
 		display: flex;
 		flex-direction: row;
