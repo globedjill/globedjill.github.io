@@ -129,13 +129,7 @@ span
 		padding-bottom: -9px;
 		border-bottom: .08em solid rgba(240, 204, 0, 0.86);
 		}
-	h4 span
-		{
-		margin-left: 30px;
-		font-weight: 400;
-		font-size: .9em;
-		}
-	h5 span
+	p span
 		{
 		margin-bottom: 10px;
 		margin-top: 10px;
@@ -210,6 +204,29 @@ header
 			border-radius: 100%;
 			border: .2em solid rgba(168, 121, 0, 0.87);
 			}
+
+	.droite header
+		{
+		background-color: red;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: auto;
+		}
+		.droite header p
+			{
+			order:1;
+			}
+			.droite header h4 
+				{
+				order:2;
+				margin-left: 30px;
+				font-weight: 400;
+				font-size: .9em;
+				}
+		.droite section:nth-of-type(1)
+		{
+			background-color: blue;
+		}
 main
 	{
 	display:flex;
