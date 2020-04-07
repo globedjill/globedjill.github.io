@@ -200,7 +200,6 @@ header
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		order:1;
 		padding-bottom: 20px;
 		}
 		picture img
@@ -258,7 +257,7 @@ main
 		{
 		display: flex;
 		flex-direction: column;
-		padding: 0px 20px 0px 60px;
+		padding: 0px 20px 20px 60px;
 		}
 		.droite article
 			{
@@ -270,20 +269,17 @@ main
 			{
 			display: flex;
 			flex-direction: row;
-			/*background-color: pink;*/
 			margin-top: 40px;
 			}
 			.droite section:nth-of-type(1n) article
 				{
 				display: flex;
 				flex-direction: column;
-				/*background-color: green;*/
 				}
 		.droite article:nth-of-type(3) section
 			{
 			display: flex;
 			flex-direction: column;
-			margin-right: 70px
 			}
 			.droite article:nth-of-type(3)
 				{
@@ -294,61 +290,7 @@ main
 					display: flex;
 					flex-direction: row;
 					justify-content: space-between;
+					flex-wrap: wrap;
 					}
 
-
-@media (max-width:1150px)
-	{
-		.droite section:nth-of-type(1n)
-			{
-			flex-direction: column;
-			/*background-color: pink;*/
-			margin-top: 10px;
-			}
-		body
-			{
-			margin-left: 50px;
-			margin-right:50px;
-			}
-		h4
-			{
-			font-weight: 300;
-			font-size: 1em;
-			min-width: 220px;
-			/*background-color: red;*/
-			margin-top:20px;
-			margin-bottom: auto;
-			}	
-		h5
-			{
-			margin-top: 15px;
-			font-size: 1em;
-			font-weight: 500;
-			}
-			h5 span
-				{
-				margin-top: 2px;
-				}	
-		.droite section:nth-of-type(1n) article
-			{
-			display: flex;
-			flex-direction: column;
-			margin-left: 30px;
-			background-color: green;
-			}
-		.droite section:nth-of-type(1n) article p
-			{
-			border-bottom: .09em solid rgba(240, 204, 0, 0.86);
-			padding-bottom: 20px;
-			}
-			.droite h3
-			{
-				background-color: blue;
-			}
-			.droite
-			{
-				background-color: pink;
-			}
-
-	}
 

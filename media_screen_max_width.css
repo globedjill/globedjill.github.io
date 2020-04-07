@@ -12,14 +12,10 @@ body
 /*Mes titres*/
 hgroup
 	{
-	order:2;
-	margin-left:unset;
 	margin-top: unset;
+	margin-left:unset;
 	}
-h1
-	{
-	text-indent: 10%;
-	}
+
 h2
 	{
 	font-size: 2em;
@@ -79,24 +75,23 @@ main
 		max-width: 900px;
 		border:none;
 		}
-	section
-		{
-		margin-top: 0px;
-		}
-		section article:nth-of-type(1n) article 
+		/*contact*/
+		.gauche article:nth-of-type(1)
 			{
-			display: flex;
-			flex-direction: column;
-			flex-wrap: nowrap;
-			font-size: 1.2em;
-			margin-left: -60px;
-			margin-right: 10px;
+			height: 380px;
+			justify-content: space-around;
+			padding-bottom: 0px;
 			}
-	.mep_recommandation
+		.gauche article:nth-of-type(1) p
+			{
+				padding-left: 30px;
+			}
+		
+	.droite
 		{
-		margin-bottom: 20px;
+		padding: 0px 20px 0px 20px;
 		}
-
+		
 
 
 
