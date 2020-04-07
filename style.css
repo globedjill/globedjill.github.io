@@ -56,15 +56,21 @@ h3
 		background-color:unset;
 		color: rgba(92, 66, 0, 1);
 		}   
-h4
+h4 , time
 	{
 	font-weight: 300;
 	font-size: 1em;
 	min-width: 220px;
-	/*background-color: red;*/
 	margin-top:0px;
 	margin-bottom: auto;
-	}	
+	}
+	.droite header h4 
+		{
+		order:2;
+		margin-left: 30px;
+		font-weight: 400;
+		font-size: .9em;
+		}	
 	.mise_en_page_recommandation h4
 	{
 	margin-top: auto;
@@ -112,6 +118,10 @@ p
 		margin-top: auto;
 		margin-bottom: auto;
 		}
+	.droite header p
+		{
+		order:1;
+		}
 span
 	{
 	display: block;
@@ -157,9 +167,9 @@ i
 		border-radius: 100%;
 		border:.07em solid black;
 		}
-	h4 i
+	header p i
 		{
-		color:rgba(240, 204, 0, 0.86);
+		color:rgba(240, 204, 0, 1);
 		}
 	
 	.fa-dot-circle
@@ -207,25 +217,10 @@ header
 
 	.droite header
 		{
-		background-color: red;
+		
 		display: flex;
 		flex-direction: column;
 		margin-bottom: auto;
-		}
-		.droite header p
-			{
-			order:1;
-			}
-			.droite header h4 
-				{
-				order:2;
-				margin-left: 30px;
-				font-weight: 400;
-				font-size: .9em;
-				}
-		.droite section:nth-of-type(1)
-		{
-			background-color: blue;
 		}
 main
 	{
