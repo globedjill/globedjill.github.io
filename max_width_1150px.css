@@ -1,9 +1,3 @@
-.droite section:nth-of-type(1n)
-			{
-			flex-direction: column;
-			/*background-color: pink;*/
-			margin-top: 10px;
-			}
 		body
 			{
 			margin-left: 50px;
@@ -28,7 +22,12 @@
 				{
 				margin-top: 2px;
 				}
-				
+		.droite section:nth-of-type(1n)
+			{
+			flex-direction: column;
+			/*background-color: pink;*/
+			margin-top: 10px;
+			}	
 		.droite section:nth-of-type(1n) article
 			{
 			display: flex;
@@ -56,4 +55,20 @@
 				{
 				border-bottom: unset;
 				}
+		.droite header
+		{
+		flex-direction: row;
+		}
+		.droite header p
+		{
+		order:1;
+		}
+		.droite header h4 
+		{
+		margin-top: 0px;
+		order:2;
+		margin-left: 10px;
+		font-weight: 400;
+		font-size: .9em;
+		}	
 			

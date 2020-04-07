@@ -14,17 +14,28 @@ hgroup
 	{
 	margin-top: unset;
 	margin-left:unset;
+	align-items: center;
 	}
-
 h2
 	{
-	font-size: 2em;
+	font-size: 1.5em;
 	}
 h4
 	{
 	font-weight: 600;
 	}
+.gauche article:first-child
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	flex-grow: 0;
+	}
 
+.gauche article:first-child h3
+	{
+	margin-top:auto;
+	}
 /*balise standard*/
 p
 	{
@@ -54,8 +65,6 @@ i
 header	
 	{
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	}
 	
 	picture
@@ -71,6 +80,7 @@ main
 	}
 	.gauche
 		{
+		justify-content: space-around;
 		order:2;
 		max-width: 900px;
 		border:none;
@@ -78,21 +88,23 @@ main
 		/*contact*/
 		.gauche article:nth-of-type(1)
 			{
-			height: 380px;
 			justify-content: space-around;
 			padding-bottom: 0px;
 			}
 		.gauche article:nth-of-type(1) p
 			{
-				padding-left: 30px;
+			padding-left: 30px;
 			}
 		
 	.droite
 		{
 		padding: 0px 20px 0px 20px;
 		}
+		.droite header
+			{
+			justify-content: flex-start;
+			}
 		
-
 
 
 

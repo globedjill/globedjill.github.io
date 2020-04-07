@@ -27,7 +27,6 @@ h2
 h3
 	{
 	display: flex;
-	justify-content: center;
 	font-size: 1.5em;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -35,19 +34,19 @@ h3
 	padding-bottom: 5px;	
 	color: rgba(255, 206, 0, 1);
 	background-color: black;
+	margin-bottom: 20px;
 	}
 	.gauche h3
 	{
+	justify-content: center;
 	margin-left: -20px;
 	margin-right: -20px;
 	}
 	.droite h3
 		{
-		display: flex;
 		justify-content: flex-start;
 
 		text-transform: uppercase;
-		font-size: 1.5em;
 		font-weight: 400;
 		border-bottom: .12em solid rgba(240, 204, 0, 0.86);
 
@@ -55,7 +54,11 @@ h3
 		margin-bottom: auto;
 		background-color:unset;
 		color: rgba(92, 66, 0, 1);
-		}   
+		} 
+	.droite article:first-child h3
+		{
+		margin-top: 20px;
+		}  
 h4 , time
 	{
 	font-weight: 300;
@@ -214,10 +217,8 @@ header
 			border-radius: 100%;
 			border: .2em solid rgba(168, 121, 0, 0.87);
 			}
-
 	.droite header
-		{
-		
+		{	
 		display: flex;
 		flex-direction: column;
 		margin-bottom: auto;
@@ -239,14 +240,15 @@ main
 		}
 		
 		/*Contact*/
-		.gauche article:nth-of-type(1)
+			
+			.mep-contact
 			{
-			max-height: 600px;
+			padding-bottom: 20px;
+			height: 500px;
+			display: flex;	
 			display: flex;
 			flex-direction: column;
-			justify-content: space-between;
-			flex-grow: 1;
-			padding-bottom: 40px;
+			justify-content: flex-start;
 			}
 
 		/*Parcour*/
