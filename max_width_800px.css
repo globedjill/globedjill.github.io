@@ -1,41 +1,25 @@
 body
- {
+ 	{
  	margin:0px;
  	margin-right: 0px;
  	margin-left: 0px;
  	padding-right: 0px; 
- 	display: flex;
- 	flex-direction: column;
  	font-size: 1em;
  	border:none;
- }
+ 	}
 /*Mes titres*/
-hgroup
-	{
-	margin-top: unset;
-	margin-left:unset;
-	align-items: center;
-	}
-h2
-	{
-	font-size: 1.5em;
-	}
+
 h4
 	{
 	font-weight: 600;
 	}
-.gauche article:first-child
-	{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	flex-grow: 0;
-	}
+h3
+	{}
+	.gauche article:first-child h3
+		{
+		margin-top:auto;
+		}
 
-.gauche article:first-child h3
-	{
-	margin-top:auto;
-	}
 /*balise standard*/
 p
 	{
@@ -46,6 +30,7 @@ p
 		font-weight: 400;
 		padding-left: 3%;
 		letter-spacing: 2px;
+		padding-left: 30px;
 		}
 	section article:nth-of-type(1n) article p
 		{
@@ -71,9 +56,15 @@ header
 		{
 		border:none;
 		order:1;
-		margin-bottom: 20px;
 		width: 100%;
+		margin-bottom: 20px;
 		}
+	hgroup
+	{
+	margin-top: unset;
+	margin-left:unset;
+	align-items: center;
+	}	
 main
 	{
 	flex-direction: column;
@@ -82,20 +73,9 @@ main
 		{
 		justify-content: space-around;
 		order:2;
-		max-width: 900px;
 		border:none;
-		}
-		/*contact*/
-		.gauche article:nth-of-type(1)
-			{
-			justify-content: space-around;
-			padding-bottom: 0px;
-			}
-		.gauche article:nth-of-type(1) p
-			{
-			padding-left: 30px;
-			}
-		
+		max-width: 900px;
+		}		
 	.droite
 		{
 		padding: 0px 20px 0px 20px;

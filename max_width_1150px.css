@@ -1,74 +1,81 @@
-		body
-			{
-			margin-left: 50px;
-			margin-right:50px;
-			}
-		h4
-			{
-			font-weight: 300;
-			font-size: 1em;
-			min-width: 220px;
-			/*background-color: red;*/
-			margin-top:20px;
-			margin-bottom: auto;
-			}	
-		h5
-			{
-			margin-top: 15px;
-			font-size: 1em;
-			font-weight: 500;
-			}
-			h5 span
-				{
-				margin-top: 2px;
-				}
-		.droite section:nth-of-type(1n)
-			{
-			flex-direction: column;
-			/*background-color: pink;*/
-			margin-top: 10px;
-			}	
-		.droite section:nth-of-type(1n) article
-			{
-			display: flex;
-			flex-direction: column;
-			}
-		.droite section:nth-of-type(1n) article p:last-child
-			{
-			border-bottom: .09em solid rgba(240, 204, 0, 0.86);
-			padding-bottom: 20px;
-			}
-		.droite article:nth-of-type(1n) section:last-child p
-			{
-			border-bottom: unset;
-			}
-
-			.droite article:nth-of-type(3)
-				{
-				margin-bottom: 0px;
-				}
-				.droite article:nth-of-type(3) section article h5
-				{
-				margin-top: 0px;
-				}
-				.droite article:nth-of-type(3) article p
-				{
-				border-bottom: unset;
-				}
-		.droite header
-		{
-		flex-direction: row;
-		}
-		.droite header p
-		{
-		order:1;
-		}
-		.droite header h4 
+body
+	{
+	margin-left: 50px;
+	margin-right:50px;
+	}
+		
+h4
+	{
+	font-weight: 300;
+	font-size: 1em;
+	min-width: 220px;
+	margin-top:20px;
+	margin-bottom: auto;
+	}	
+	.droite header h4 
 		{
 		margin-top: 0px;
 		order:2;
 		margin-left: 10px;
 		font-weight: 400;
 		font-size: .9em;
+		}
+h5
+	{
+	margin-top: 15px;
+	font-size: 1em;
+	font-weight: 500;
+	}
+	h5 span
+		{
+		margin-top: 2px;
+		}
+	.droite article:nth-of-type(3) section article h5
+		{
+		margin-top: 0px;
+		}
+
+p
+	{
+	}
+	.droite article:nth-of-type(1n) section:last-child p
+		{
+		border-bottom: unset;
+		}
+	.droite article:nth-of-type(3) article p
+		{
+		border-bottom: unset;
+		}
+	.droite header p
+		{
+		order:1;
+		}
+	.droite section:nth-of-type(1n) article p:last-child
+		{
+		border-bottom: .09em solid rgba(240, 204, 0, 0.86);
+		padding-bottom: 20px;
+		}
+
+.droite
+	{
+	}
+	.droite section:nth-of-type(1n)
+		{
+		flex-direction: column;
+		margin-top: 10px;
 		}	
+	.droite section:nth-of-type(1n) article
+		{
+		display: flex;
+		flex-direction: column;
+		}
+	.droite article:nth-of-type(3)
+		{
+		margin-bottom: 0px;
+		}		
+	.droite header
+		{
+		flex-direction: row;
+		}	
+	
 			

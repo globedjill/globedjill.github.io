@@ -207,7 +207,6 @@ header
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding-bottom: 20px;
 		}
 		picture img
 			{
@@ -217,12 +216,6 @@ header
 			border-radius: 100%;
 			border: .2em solid rgba(168, 121, 0, 0.87);
 			}
-	.droite header
-		{	
-		display: flex;
-		flex-direction: column;
-		margin-bottom: auto;
-		}
 main
 	{
 	display:flex;
@@ -230,25 +223,20 @@ main
 	}
 	.gauche
 		{
-		justify-content: space-between;
 		display: flex;
 		flex-direction: column;
 		background-color:rgba(255, 206, 0, 1);
 		min-width: 270px;
 		max-width: 270px;
-		padding: 0px 20px 10px 20px;
+		padding: 0px 20px 0px 20px;
 		}
 		
 		/*Contact*/
-			
-			.mep-contact
+		.mep-contact
 			{
-			padding-bottom: 20px;
 			height: 500px;
 			display: flex;	
-			display: flex;
 			flex-direction: column;
-			justify-content: flex-start;
 			}
 
 		/*Parcour*/
@@ -306,5 +294,10 @@ main
 					justify-content: space-between;
 					flex-wrap: wrap;
 					}
-
+		.droite header
+		{	
+		display: flex;
+		flex-direction: column;
+		margin-bottom: auto;
+		}
 
