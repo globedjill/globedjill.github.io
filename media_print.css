@@ -2,17 +2,14 @@
     {
     margin:1cm;   
     }
-    .droite h3
+    p
         {
-        background-color: pink;
-        break-before: always;
+        break-inside: avoid;
         }
-
 body
     {
     border:1pt solid grey;
-    font-size: 8pt;
-    display: flex;
+    font-size: 9pt;
     }
 a
     {
@@ -29,12 +26,12 @@ header,main
 /*Main*/
 .gauche
     {
+    background-color: rgba(255, 206, 0, .3);
     border:.1pt solid grey;
     min-width: 170pt;
     max-width: 170pt;
     order:1;
     }
-   
     .mep-contact
         {
         height: 250pt;
@@ -53,11 +50,12 @@ hgroup
     margin-top: 30pt;
     align-items: flex-start;
     }
-        picture
+    picture
         {
         min-width: 170pt;
         width: 199.5pt;
-        margin-bottom: 0pt;
+        padding-bottom: 15pt;
+        background-color: rgba(255, 206, 0, .3);
         border-right: 1pt solid grey;
         }
         picture img
@@ -68,27 +66,15 @@ hgroup
             }
 h1
     {
-    text-transform: uppercase;
     font-size: 1cm;
     }
-h3
-    {
-    }
-    .gauche h3
+    .droite h3
         {
-        padding-top: 12pt;
-        padding-bottom: 12pt;
-        font-weight: 500;
-        text-transform: uppercase;
-        background-color: grey;
-        } 
-h4
+        margin-top: 0px;
+        }   
+.gauche h3
     {
-    font-size: 8pt;
-    letter-spacing: 0pt;
-    min-width: 80pt;
-    font-weight: 400;
-    }
-
- 
-
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+    background-color: grey;
+    } 
