@@ -38,7 +38,7 @@ h5
 p
 	{
 	}
-	.droite article:nth-of-type(1n) section:last-child p
+	.droite article section:last-child article p
 		{
 		border-bottom: unset;
 		}

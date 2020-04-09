@@ -45,27 +45,21 @@ h3
 	.droite h3
 		{
 		justify-content: flex-start;
-
 		text-transform: uppercase;
 		font-weight: 400;
 		border-bottom: .12em solid rgba(240, 204, 0, 0.86);
-
 		margin-top: 50px;
 		margin-bottom: auto;
 		background-color:unset;
 		color: rgba(92, 66, 0, 1);
 		} 
-	.droite article:first-child h3
-		{
-		margin-top: 20px;
-		}  
 h4 , time
 	{
 	font-weight: 300;
 	font-size: 1em;
 	min-width: 220px;
-	margin-top:0px;
 	margin-bottom: auto;
+	margin-top:0px;
 	}
 	.droite header h4 
 		{
@@ -124,7 +118,7 @@ p
 	.droite header p
 		{
 		order:1;
-		}
+		}		
 span
 	{
 	display: block;
@@ -139,7 +133,6 @@ span
 	h2 span
 		{
 		display: inline-block;
-		padding-bottom: -9px;
 		border-bottom: .08em solid rgba(240, 204, 0, 0.86);
 		}
 	p span
@@ -237,10 +230,11 @@ main
 			height: 500px;
 			display: flex;	
 			flex-direction: column;
+			justify-content: space-around;
 			}
 
 		/*Parcour*/
-		.gauche article:nth-of-type(2)
+		.gauche section:nth-of-type(2)
 			{
 			flex-grow: 1;
 			}

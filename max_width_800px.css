@@ -24,7 +24,7 @@ h3
 p
 	{
 	}
-	.gauche article:nth-of-type(1) p
+	.gauche section:nth-of-type(1) p
 		{
 		font-size: 1em;
 		font-weight: 400;
@@ -40,7 +40,7 @@ p
 i
 	{
 	}
-	.gauche article:nth-of-type(1) p i
+	.gauche section:nth-of-type(1) p i
 	{
 	margin-right: 30px;
 	font-size: 1.8em;

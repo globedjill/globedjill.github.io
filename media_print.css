@@ -1,15 +1,16 @@
 @page
-{
+    {
     margin:1cm;   
-}
-article,p 
-{
-  break-inside: avoid;
-}
+    }
+    .droite h3
+        {
+        background-color: pink;
+        break-before: always;
+        }
+
 body
     {
     border:1pt solid grey;
-    margin: 0.3cm;
     font-size: 8pt;
     display: flex;
     }
@@ -25,13 +26,9 @@ header,main
     flex-direction: row;
     }
 
-/*header*/
-header{
-}
 /*Main*/
 .gauche
     {
-    background-image: linear-gradient(95deg,rgba(255, 129, 61, 0.10),rgba(240, 204, 0, 0.10));
     border:.1pt solid grey;
     min-width: 170pt;
     max-width: 170pt;
@@ -45,9 +42,9 @@ header{
         }     
     
 .droite
-{
+    {
     order:2;
-}
+    }
 
 /*mes_titres*/ 
 hgroup
@@ -55,7 +52,6 @@ hgroup
     margin-left: 20pt;
     margin-top: 30pt;
     align-items: flex-start;
-
     }
         picture
         {
@@ -69,8 +65,6 @@ hgroup
             margin:15pt 0pt 0pt 0pt;
             height: 120pt;
             width: 120pt;
-            border-radius: 100%;
-            border: .2em solid rgba(168, 121, 0, 0.87);
             }
 h1
     {
