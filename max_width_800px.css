@@ -66,16 +66,13 @@ main
 			{
 			justify-content: flex-start;
 			}
-	.mise_en_page_recommandation article
-		{
-		}	
 	.mise_en_page_recommandation
 		{
-		justify-content: space-around;
+		justify-content: space-between;
 		flex-wrap: wrap;
 		}
 
-
+	
 
 
 

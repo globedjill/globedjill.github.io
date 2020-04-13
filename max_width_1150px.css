@@ -45,4 +45,8 @@ p
 		{
 		display: flex;
 		flex-direction: row;
-		}	
+		}
+.mise_en_page_recommandation article
+	{
+	padding-bottom: 10px;
+	}	
