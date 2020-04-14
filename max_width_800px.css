@@ -5,27 +5,19 @@ body
  	border:none;
  	}
 /*Mes titres*/
-h3
-	{}
-	.gauche section:first-child h3
-		{
-		margin-top:auto;
-		}
+.gauche section:first-child h3
+	{
+	margin-top:auto;
+	}
 
-/*balise standard*/
-p
+/*Les génériques*/
+.mep-contact p
 	{
+	font-weight: 400;
+	padding-left: 3%;
+	letter-spacing: 2px;
 	}
-	.mep-contact p
-		{
-		font-weight: 400;
-		padding-left: 3%;
-		letter-spacing: 2px;
-		}
-i
-	{
-	}
-	.gauche section:nth-of-type(1) p i
+.gauche section:nth-of-type(1) p i
 	{
 	font-size: 1.8em;
 	}
@@ -66,11 +58,11 @@ main
 			{
 			justify-content: flex-start;
 			}
-	.mise_en_page_recommandation
-		{
-		justify-content: space-between;
-		flex-wrap: wrap;
-		}
+		.mise_en_page_recommandation
+			{
+			justify-content: space-between;
+			flex-wrap: wrap;
+			}
 
 	
 

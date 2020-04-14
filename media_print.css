@@ -2,14 +2,15 @@
     {
     margin:1cm;   
     }
-    p
-        {
-        break-inside: avoid;
-        }
 body
     {
     border:1pt solid grey;
     font-size: 9pt;
+    }
+/*Les génériques*/
+p
+    {
+    break-inside: avoid;
     }
 a
     {
@@ -17,35 +18,28 @@ a
     color: black;
     font-weight: 500;
     }
-
+/*Les titres*/
+h1
+    {
+    font-size: 1cm;
+    }
+.droite h3
+    {
+    margin-top: 0px;
+    }   
+.gauche h3
+    {
+    padding-top: 12pt;
+    padding-bottom: 12pt;
+    background-color: grey;
+    } 
+/*Main*/
 header,main
     {
     flex-direction: row;
     }
-
-/*Main*/
-.gauche
-    {
-    background-color: rgba(255, 206, 0, .3);
-    border:.1pt solid grey;
-    min-width: 170pt;
-    max-width: 170pt;
-    order:1;
-    }
-    .mep-contact
-        {
-        height: 250pt;
-        font-size: 9pt;
-        }     
-    
-.droite
-    {
-    order:2;
-    }
-
-/*mes_titres*/ 
 hgroup
-    {
+   {
     margin-left: 20pt;
     margin-top: 30pt;
     align-items: flex-start;
@@ -64,17 +58,21 @@ hgroup
             height: 120pt;
             width: 120pt;
             }
-h1
+.gauche
     {
-    font-size: 1cm;
+    background-color: rgba(255, 206, 0, .3);
+    border:.1pt solid grey;
+    min-width: 170pt;
+    max-width: 170pt;
+    order:1;
     }
-    .droite h3
+    .mep-contact
         {
-        margin-top: 0px;
-        }   
-.gauche h3
+        height: 250pt;
+        font-size: 9pt;
+        }        
+.droite
     {
-    padding-top: 12pt;
-    padding-bottom: 12pt;
-    background-color: grey;
-    } 
+    order:2;
+    }
+ 

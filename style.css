@@ -60,19 +60,19 @@ h4
 	margin-bottom: auto;
 	margin-top:0px;
 	}
-	.mep-formation h4 
+	.mise_en_page h4 
 		{
 		order:2;
 		margin-left: 30px;
 		font-weight: 400;
 		}	
 	.mise_en_page_recommandation h4
-	{
-	margin-top: auto;
-	margin-bottom: auto;
-	font-size: 1em;
-	font-weight: 500;
-	}
+		{
+		margin-top: auto;
+		margin-bottom: auto;
+		font-size: 1em;
+		font-weight: 500;
+		}
 h5
 	{
 	margin-top: auto;
@@ -95,9 +95,9 @@ a
 		font-weight: 600; 
 		}
 	.gauche a
-	{
+		{
 		color: white;
-	}
+		}
 	.gauche a:hover
     	{
 		color: rgba(54, 255, 36, 1);
@@ -255,30 +255,30 @@ main
 		flex-direction: column;
 		padding: 0px 20px 20px 60px;
 		}
-		.mep-formation
+		.mise_en_page
 			{
 			display: flex;
 			flex-direction: row;
 			margin-top: 40px;
 			}
-		.mep-formation header
-			{
-			flex-direction: column;
-			margin-bottom: auto;
-			}
-		.mep-formation article
-			{
-			display: flex;
-			flex-direction: column;
-			}
-
-			.mise_en_page_recommandation
+			.mise_en_page header
+				{
+				flex-direction: column;
+				margin-bottom: auto;
+				}
+			.mise_en_page article
 				{
 				display: flex;
-				flex-direction: row;
-				justify-content: flex-start;
-				flex-wrap: wrap;
+				flex-direction: column;
 				}
+
+		.mise_en_page_recommandation
+			{
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			flex-wrap: wrap;
+			}
 			.mise_en_page_recommandation article
 				{
 				padding-right: 50px;
